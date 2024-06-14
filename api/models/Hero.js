@@ -1,20 +1,22 @@
 module.exports = {
   attributes: {
     name: {
-      type: "",
+      type: 'string', //alteração no tipo atribuido para "string" pois não havia nada escrito dentro da string, causando problemas para a identificação do dado.
       required: true,
     },
     power: {
-      type: "string",
+      type: 'string',
       required: true,
     },
     age: {
-      type: "integer",
+      type: 'integer',
       required: true,
     },
     secretIdentity: {
-      type: "string",
+      type: 'string',
       required: true,
     },
+  //não há referencia do colectio via no model (?)
+
   },
 };
